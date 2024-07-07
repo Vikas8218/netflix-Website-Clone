@@ -1,27 +1,74 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=martel+Sanez');
+
+* {
   padding: 0px;
   margin: 0px;
+  font-family: 'poppins', sans-serif;
 }
-.main{
+body{
+  background-color: black;
+}
+
+.main {
   background-image: url("links/images/backgroundnetflix.jpg");
-  background-position: center center ;
-  background-size: max(900px , 100vw);
+  background-position: center center;
+  background-size: max(900px, 100vw);
   background-repeat: no-repeat;
-  height: 80vh;
+  height: 70vh;
   position: relative;
 }
-.main .box{
-  height: 80vh;
+
+.main .box {
+  height: 70vh;
   width: 100%;
   opacity: 0.44;
   background-color: black;
   position: absolute;
   top: 0;
 }
- nav{
+
+nav {
   display: flex;
-  max-width: 80vw;
+  max-width: 60vw;
   justify-content: space-between;
   margin: auto;
   align-items: center;
+  height: 62px;
+}
+
+nav img {
+  color: red;
+  width: 120px;
+  position: relative;
+  z-index: 10;
+}
+
+nav button {
+  position: relative;
+  z-index: 10;
+}
+
+.hero {
+  font-family: 'Martel Sans', sans-serif;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  gap: 20px;
+  padding: 30px;
+}
+.hero > :nth-child(1){
+  font-size: 42px;
+  font-weight: bolder;
+}
+.hero >:nth-child(2){
+  font-weight: 400;
+  font-size: 24px;
+}
+.hero >:nth-child(3){
+  font-weight: 400;
+  font-size: 20px;
 }
