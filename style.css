@@ -5,7 +5,8 @@
   margin: 0px;
   font-family: 'poppins', sans-serif;
 }
-body{
+
+body {
   background-color: black;
 }
 
@@ -21,7 +22,7 @@ body{
 .main .box {
   height: 70vh;
   width: 100%;
-  opacity: 0.44;
+  opacity: 0.68;
   background-color: black;
   position: absolute;
   top: 0;
@@ -50,25 +51,64 @@ nav button {
 
 .hero {
   font-family: 'Martel Sans', sans-serif;
-  height: 100%;
+  height: calc(100% -62px);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   color: white;
   position: relative;
-  gap: 20px;
+  gap: 23px;
   padding: 30px;
 }
-.hero > :nth-child(1){
+
+.hero> :nth-child(1) {
+  font-family: "poppins";
   font-size: 42px;
   font-weight: bolder;
+  text-align: center;
 }
-.hero >:nth-child(2){
+
+.hero>:nth-child(2) {
   font-weight: 400;
   font-size: 24px;
+  text-align: center;
 }
-.hero >:nth-child(3){
+
+.hero>:nth-child(3) {
   font-weight: 400;
   font-size: 20px;
+  text-align: center;
+}
+
+.separation {
+  height: 7px;
+  background-color: gray;
+}
+
+.btn {
+  padding: 3px 8px;
+  font-weight: bold;
+  background-color: white;
+
+}
+
+.btn-red {
+  background-color: red;
+  color: white;
+  padding: 3px 24px;
+  font-size: 18px;
+  border-radius: 4px;
+}
+.main input{
+  padding: 7px 101px 8px 14px;
+  font-weight: 900;
+  font-size : 12px;
+  border-radius: 4px;
+  background-color: rgba(23,23,23,0.7);
+  border: 1px solid rgba(246,238,238,0.7);
+}
+.btn-red-sm {
+  background-color: red;
+  color: white;   
 }
