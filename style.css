@@ -142,11 +142,11 @@ font-weight: 400;
   flex-direction: column;
  }
 section.first > div :first-child{
-  font-size: 40px;
+  font-size: 34px;
   font-weight: bolder;
-  text-align: center;
+  color:white
 }
 section.first > div :nth-child(2){
-  font-size: 19px;
+  font-size: 15px;
   font-weight: bolder;
 }
