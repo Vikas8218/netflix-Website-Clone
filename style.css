@@ -22,7 +22,7 @@ body {
 .main .box {
   height: 70vh;
   width: 100%;
-  opacity: 0.68;
+  opacity: 0.73;
   background-color: black;
   position: absolute;
   top: 0;
@@ -58,8 +58,8 @@ nav button {
   flex-direction: column;
   color: white;
   position: relative;
-  gap: 23px;
-  padding: 30px;
+  gap: 40px;
+  padding: 50px;
 }
 
 .hero> :nth-child(1) {
@@ -83,14 +83,16 @@ nav button {
 
 .separation {
   height: 7px;
-  background-color: gray;
+  background-color: rgba(152, 145, 145, 0.263);
 }
 
 .btn {
   padding: 3px 8px;
-  font-weight: bold;
-  background-color: white;
-
+font-weight: 400;
+  color: white;
+  background-color: rgba(220, 214, 214, 0);
+  border: 1px solid rgba(255, 255, 255, 0.596);
+ cursor: pointer;
 }
 
 .btn-red {
@@ -102,6 +104,7 @@ nav button {
 }
 .main input{
   padding: 7px 101px 8px 14px;
+  color: white;
   font-weight: 900;
   font-size : 12px;
   border-radius: 4px;
@@ -111,4 +114,39 @@ nav button {
 .btn-red-sm {
   background-color: red;
   color: white;   
+}
+.first{
+  display: flex;
+  justify-content: center;
+  max-width: 70vw;
+  margin: auto;
+  color:white;
+  justify-content: center;
+  align-items: center;
+}
+.secImg{
+  position: relative;
+}
+.secImg img{
+  width: 40vw;
+  position: relative;
+  z-index: 10;
+}
+.secImg video{
+  position: absolute;
+  top : 50px;
+  right: 0;
+}
+ section.first > div{
+  display: flex;
+  flex-direction: column;
+ }
+section.first > div :first-child{
+  font-size: 40px;
+  font-weight: bolder;
+  text-align: center;
+}
+section.first > div :nth-child(2){
+  font-size: 19px;
+  font-weight: bolder;
 }
